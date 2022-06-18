@@ -1,0 +1,15 @@
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\bin\Debug\net5.0\CustomerApplication.deps.json
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\bin\Debug\net5.0\CustomerApplication.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\bin\Debug\net5.0\CustomerApplication.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\bin\Debug\net5.0\CustomerDomain.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\bin\Debug\net5.0\CustomerDomain.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.csproj.AssemblyReference.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.AssemblyInfoInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.AssemblyInfo.cs
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.csproj.CoreCompileInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.csproj.CopyComplete
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\ref\CustomerApplication.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\obj\Debug\net5.0\CustomerApplication.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerApplication\bin\Debug\net5.0\ref\CustomerApplication.dll

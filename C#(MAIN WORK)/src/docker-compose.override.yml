@@ -1,0 +1,46 @@
+version: '3.4'
+
+services:
+  customerpresentation:
+    container_name: customerservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoSettings:ConnectionString=mongodb://root:155202Asd...@mongodb:27017
+      - HttpRequestSettings:BaseUrl=http://gateway
+      - HttpRequestSettings:Port=80
+    ports:
+      - "8001:80"
+  gateway:
+    container_name: gateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8000:80"
+  orderpresentation:
+    container_name: orderservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoSettings:ConnectionString=mongodb://root:155202Asd...@mongodb:27017
+      - HttpRequestSettings:BaseUrl=http://gateway
+      - HttpRequestSettings:Port=80
+    ports:
+      - "8002:80"
+  mongodb:
+    container_name: mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 155202Asd...
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}/site:/data/db
+    ports:
+      - "27017:27017"
+
+  healthcheck:
+    container_name: healthcheck
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8003:80"
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

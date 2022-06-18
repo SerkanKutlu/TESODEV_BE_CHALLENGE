@@ -1,0 +1,16 @@
+services:
+  customerpresentation:
+    build:
+      context: C:\Users\kutlu\Desktop\WORK\TESODEV\src
+      dockerfile: CustomerPresentation/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: customerpresentation
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\kutlu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\kutlu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

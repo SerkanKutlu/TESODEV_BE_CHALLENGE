@@ -1,0 +1,17 @@
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\OrderInfrastructure.deps.json
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\OrderInfrastructure.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\OrderInfrastructure.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\OrderApplication.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\OrderDomain.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\OrderApplication.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\OrderDomain.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.csproj.AssemblyReference.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.AssemblyInfoInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.AssemblyInfo.cs
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.csproj.CopyComplete
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\OrderInfrastructure.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\obj\Debug\net5.0\ref\OrderInfrastructure.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderInfrastructure\bin\Debug\net5.0\ref\OrderInfrastructure.dll

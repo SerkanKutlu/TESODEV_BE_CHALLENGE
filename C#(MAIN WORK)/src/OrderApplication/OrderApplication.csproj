@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OrderDomain\OrderDomain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="6.0.2" />
+      <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="5.0.0" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+      <PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+      <PackageReference Include="Marvin.Cache.Headers" Version="6.1.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="5.0.0" />
+      <PackageReference Include="Serilog.AspNetCore" Version="6.0.0-dev-00265" />
+      <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+      <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.2" />
+      <PackageReference Include="Serilog.Enrichers.Thread" Version="3.2.0-dev-00752" />
+      <PackageReference Include="Serilog.Settings.Configuration" Version="3.3.1-dev-00296" />
+      <PackageReference Include="Serilog.Sinks.Seq" Version="5.1.2-dev-00222" />
+    </ItemGroup>
+
+</Project>

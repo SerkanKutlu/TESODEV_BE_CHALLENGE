@@ -1,0 +1,186 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "User API Documentation",
+        "contact": {},
+        "version": "1.0.0"
+    },
+    "host": "143.198.137.31:5000",
+    "basePath": "/api",
+    "paths": {
+        "/customer": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Customer Service"
+                ],
+                "summary": "List All Customers",
+                "responses": {}
+            },
+            "put": {
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Customer Service"
+                ],
+                "summary": "Update Customer",
+                "parameters": [
+                    {
+                        "description": "Customer",
+                        "name": "id",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/types.Customer"
+                        }
+                    }
+                ],
+                "responses": {}
+            },
+            "post": {
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Customer Service"
+                ],
+                "summary": "Create New Customer",
+                "parameters": [
+                    {
+                        "description": "Customer",
+                        "name": "id",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/types.Customer"
+                        }
+                    }
+                ],
+                "responses": {}
+            }
+        },
+        "/customer/validate/{id}": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Customer Service"
+                ],
+                "summary": "Validate Customer By Id",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Customer ID",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {}
+            }
+        },
+        "/customer/{id}": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Customer Service"
+                ],
+                "summary": "Get Customer By Id",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Customer ID",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {}
+            },
+            "delete": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Customer Service"
+                ],
+                "summary": "Delete Customer By Id",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Customer Id",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {}
+            }
+        }
+    },
+    "definitions": {
+        "types.Address": {
+            "type": "object",
+            "required": [
+                "addressLine",
+                "city",
+                "cityCode",
+                "country"
+            ],
+            "properties": {
+                "addressLine": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "cityCode": {
+                    "type": "integer"
+                },
+                "country": {
+                    "type": "string"
+                }
+            }
+        },
+        "types.Customer": {
+            "type": "object",
+            "required": [
+                "address",
+                "email",
+                "name"
+            ],
+            "properties": {
+                "_id": {
+                    "type": "string"
+                },
+                "address": {
+                    "$ref": "#/definitions/types.Address"
+                },
+                "createdAt": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "updatedAt": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

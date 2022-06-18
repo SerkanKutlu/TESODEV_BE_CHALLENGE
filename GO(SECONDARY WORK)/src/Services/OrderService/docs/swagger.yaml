@@ -1,0 +1,253 @@
+basePath: /api
+definitions:
+  types.Address:
+    properties:
+      addressLine:
+        type: string
+      city:
+        type: string
+      cityCode:
+        type: integer
+      country:
+        type: string
+    type: object
+  types.Order:
+    properties:
+      _id:
+        description: calculate auto
+        type: string
+      address:
+        $ref: '#/definitions/types.Address'
+        description: get from customer
+      createdAt:
+        description: calculate auto
+        type: string
+      customerId:
+        description: from user
+        type: string
+      productIds:
+        description: from user
+        items:
+          type: string
+        type: array
+      quantity:
+        description: calculate auto
+        type: integer
+      status:
+        description: from user
+        type: string
+      total:
+        description: calculate auto
+        type: number
+      updatedAt:
+        description: calculate auto
+        type: string
+    required:
+    - customerId
+    - productIds
+    - status
+    type: object
+  types.Product:
+    properties:
+      _id:
+        type: string
+      imageUrl:
+        type: string
+      name:
+        type: string
+      price:
+        type: number
+    required:
+    - imageUrl
+    - name
+    - price
+    type: object
+host: 143.198.137.31:5001
+info:
+  contact: {}
+  title: User API Documentation
+  version: 1.0.0
+paths:
+  /order:
+    get:
+      produces:
+      - application/json
+      responses: {}
+      summary: List All Orders
+      tags:
+      - Order Service
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Order
+        in: body
+        name: id
+        required: true
+        schema:
+          $ref: '#/definitions/types.Order'
+      produces:
+      - application/json
+      responses: {}
+      summary: Create New Order
+      tags:
+      - Order Service
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: Order
+        in: body
+        name: id
+        required: true
+        schema:
+          $ref: '#/definitions/types.Order'
+      produces:
+      - application/json
+      responses: {}
+      summary: Update Order
+      tags:
+      - Order Service
+  /order/{id}:
+    delete:
+      parameters:
+      - description: Order Id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Delete Order By Id
+      tags:
+      - Order Service
+    get:
+      parameters:
+      - description: Order ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Get Order By Id
+      tags:
+      - Order Service
+  /order/customer/{id}:
+    delete:
+      parameters:
+      - description: Customer Id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Delete Order By Customer Id
+      tags:
+      - Order Service
+    get:
+      parameters:
+      - description: Customer ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Get Order By CustomerId
+      tags:
+      - Order Service
+  /order/status:
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: Order ID
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: New Status
+        in: path
+        name: status
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Change Order Status
+      tags:
+      - Order Service
+  /product:
+    get:
+      produces:
+      - application/json
+      responses: {}
+      summary: List All Products
+      tags:
+      - Order Service
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Product
+        in: body
+        name: id
+        required: true
+        schema:
+          $ref: '#/definitions/types.Product'
+      produces:
+      - application/json
+      responses: {}
+      summary: Create New Product
+      tags:
+      - Order Service
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: Product
+        in: body
+        name: id
+        required: true
+        schema:
+          $ref: '#/definitions/types.Product'
+      produces:
+      - application/json
+      responses: {}
+      summary: Update Product
+      tags:
+      - Order Service
+  /product/{id}:
+    delete:
+      parameters:
+      - description: Product Id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Delete Product By Id
+      tags:
+      - Order Service
+    get:
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Get Product By Id
+      tags:
+      - Order Service
+swagger: "2.0"

@@ -1,0 +1,15 @@
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\bin\Debug\net5.0\OrderApplication.deps.json
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\bin\Debug\net5.0\OrderApplication.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\bin\Debug\net5.0\OrderApplication.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\bin\Debug\net5.0\OrderDomain.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\bin\Debug\net5.0\OrderDomain.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.csproj.AssemblyReference.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.AssemblyInfoInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.AssemblyInfo.cs
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.csproj.CoreCompileInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.csproj.CopyComplete
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\OrderApplication.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\obj\Debug\net5.0\ref\OrderApplication.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderApplication\bin\Debug\net5.0\ref\OrderApplication.dll

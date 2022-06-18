@@ -1,0 +1,125 @@
+basePath: /api
+definitions:
+  types.Address:
+    properties:
+      addressLine:
+        type: string
+      city:
+        type: string
+      cityCode:
+        type: integer
+      country:
+        type: string
+    required:
+    - addressLine
+    - city
+    - cityCode
+    - country
+    type: object
+  types.Customer:
+    properties:
+      _id:
+        type: string
+      address:
+        $ref: '#/definitions/types.Address'
+      createdAt:
+        type: string
+      email:
+        type: string
+      name:
+        type: string
+      updatedAt:
+        type: string
+    required:
+    - address
+    - email
+    - name
+    type: object
+host: 143.198.137.31:5000
+info:
+  contact: {}
+  title: User API Documentation
+  version: 1.0.0
+paths:
+  /customer:
+    get:
+      produces:
+      - application/json
+      responses: {}
+      summary: List All Customers
+      tags:
+      - Customer Service
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Customer
+        in: body
+        name: id
+        required: true
+        schema:
+          $ref: '#/definitions/types.Customer'
+      produces:
+      - application/json
+      responses: {}
+      summary: Create New Customer
+      tags:
+      - Customer Service
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: Customer
+        in: body
+        name: id
+        required: true
+        schema:
+          $ref: '#/definitions/types.Customer'
+      produces:
+      - application/json
+      responses: {}
+      summary: Update Customer
+      tags:
+      - Customer Service
+  /customer/{id}:
+    delete:
+      parameters:
+      - description: Customer Id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Delete Customer By Id
+      tags:
+      - Customer Service
+    get:
+      parameters:
+      - description: Customer ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Get Customer By Id
+      tags:
+      - Customer Service
+  /customer/validate/{id}:
+    get:
+      parameters:
+      - description: Customer ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Validate Customer By Id
+      tags:
+      - Customer Service
+swagger: "2.0"

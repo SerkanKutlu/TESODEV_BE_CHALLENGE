@@ -1,0 +1,12 @@
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\bin\Debug\net5.0\CustomerDomain.deps.json
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\bin\Debug\net5.0\CustomerDomain.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\bin\Debug\net5.0\CustomerDomain.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\CustomerDomain.csproj.AssemblyReference.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\CustomerDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\CustomerDomain.AssemblyInfoInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\CustomerDomain.AssemblyInfo.cs
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\CustomerDomain.csproj.CoreCompileInputs.cache
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\CustomerDomain.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\ref\CustomerDomain.dll
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\obj\Debug\net5.0\CustomerDomain.pdb
+C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerDomain\bin\Debug\net5.0\ref\CustomerDomain.dll

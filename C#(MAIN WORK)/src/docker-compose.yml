@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  customerpresentation:
+    container_name: customerservice
+    image: ${DOCKER_REGISTRY-}customerpresentation
+    build:
+      context: .
+      dockerfile: CustomerPresentation\Dockerfile
+  gateway:
+    container_name: gateway
+    image: ${DOCKER_REGISTRY-}gateway
+    build:
+      context: .
+      dockerfile: Gateway/Dockerfile
+  orderpresentation:
+    container_name: orderservice
+    image: ${DOCKER_REGISTRY-}orderpresentation
+    build:
+      context: .
+      dockerfile: OrderPresentation/Dockerfile
+  mongodb:
+    container_name: mongodb
+    image: mongo
+  healthcheck:
+    container_name: healthcheck
+    image: ${DOCKER_REGISTRY-}healthcheck
+    build:
+      context: .
+      dockerfile: HealthCheck/Dockerfile
+

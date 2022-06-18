@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerPresentation</name>
+    </assembly>
+    <members>
+        <member name="M:CustomerPresentation.Controllers.CustomerController.GetAll(OrderDomain.RequestFeatures.RequestParameters)">
+            <summary>
+            List all customers
+            </summary>
+            <param name="requestParameters">Paging params if needed</param>
+            <response code="200">Successful Response</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:CustomerPresentation.Controllers.CustomerController.GetById(System.String)">
+             <summary>
+             Fetch a customer with giving id
+             </summary>
+            <param name="id">Id of specific customer</param>
+             <response code="200">Successful Response</response>
+             <response code="404">Invalid Customer Id</response>
+             <response code="400">Invalid Id Format Error</response>
+             <response code="500">Server Error</response>
+        </member>
+        <member name="M:CustomerPresentation.Controllers.CustomerController.ValidateCustomer(System.String)">
+             <summary>
+             Check the if customer exist with an id.
+             </summary>
+             <remarks>
+             This endpoint can be used by less authorized users.
+             </remarks>
+             <response code="200">Successful Response</response>
+             <response code="404">Invalid Customer Id</response>
+             <response code="400">Invalid Id Format Error</response>
+             <response code="500">Server Error</response>
+            <param name="id">Id of specific customer</param>
+        </member>
+        <member name="M:CustomerPresentation.Controllers.CustomerController.CreateCustomer(CustomerApplication.Models.DTO.CustomerForCreation)">
+            <summary>
+            Creating new customer by using body.
+            </summary>
+            <response code="201">Successful Response</response>
+            <response code="400">Validation Failed or Invalid Request Body</response>
+            <response code="500">Server Error</response>
+            <param name="customerForCreation">All areas are required</param>
+        </member>
+        <member name="M:CustomerPresentation.Controllers.CustomerController.UpdateCustomer(CustomerApplication.Models.DTO.CustomerForUpdate)">
+            <summary>
+            Updating a customer by using body.
+            </summary>
+            <response code="200">Successful Response</response>
+            <response code="400">Validation Failed or Invalid Request Body</response>
+            <response code="404">Invalid Customer Id</response>
+            <response code="500">Server Error</response>
+            <param name="customerForUpdate">All areas are required. Enter correct pattern and valid id.</param>
+        </member>
+        <member name="M:CustomerPresentation.Controllers.CustomerController.DeleteCustomer(System.String)">
+            <summary>
+            Deleting a customer by using id of the customer.
+            </summary>
+            <param name="id">Enter a valid id of a customer</param>
+            <response code="200">Successful Response</response>
+            <response code="404">Invalid Customer Id</response>
+            <response code="503">Error With Remote Server</response>
+            <response code="500">Server Error</response>
+            <response code="400">Invalid Id Format Error</response>
+        </member>
+    </members>
+</doc>

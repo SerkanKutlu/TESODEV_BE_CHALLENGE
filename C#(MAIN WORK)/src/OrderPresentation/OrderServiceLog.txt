@@ -1,0 +1,1461 @@
+2022-05-06 21:26:11.985 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-06 21:26:11.997 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-06 21:26:11.999 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-06 21:26:11.999 +03:00 [INF] Hosting environment: Development
+2022-05-06 21:26:11.999 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-06 21:26:12.672 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-06 21:26:12.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 264.2239ms
+2022-05-06 21:26:14.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887f - -
+2022-05-06 21:26:14.781 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:26:14.799 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:26:14.803 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:26:14.803 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:26:14.805 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:26:14.805 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:26:14.805 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:26:14.849 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:26:15.400 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:26:15.499 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:26:15.518 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:26:25.643 +03:00 [INF] Received HTTP response headers after 10120.3645ms - 502
+2022-05-06 21:26:25.650 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:26:36.082 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 20678.4041ms
+2022-05-06 21:26:36.083 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:26:42.302 +03:00 [ERR] UNEXPECTED EXCEPTION OCCURED: The delegate executed asynchronously through TimeoutPolicy did not complete within the timeout.
+2022-05-06 21:26:42.312 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887f - - - 500 - application/json 27546.9382ms
+2022-05-06 21:27:24.820 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-06 21:27:24.839 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-06 21:27:24.839 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-06 21:27:24.839 +03:00 [INF] Hosting environment: Development
+2022-05-06 21:27:24.839 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-06 21:27:25.308 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-06 21:27:25.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 155.6669ms
+2022-05-06 21:27:26.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-06 21:27:26.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.0039ms
+2022-05-06 21:27:27.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887f - -
+2022-05-06 21:27:27.722 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:27:27.727 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:27:27.731 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:27:27.731 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:27:27.735 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:27:27.735 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:27:27.735 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:27:27.785 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:27:28.488 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:27:28.560 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:27:28.589 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:27:38.848 +03:00 [INF] Received HTTP response headers after 10252.2335ms - 502
+2022-05-06 21:27:38.857 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:27:48.904 +03:00 [INF] Received HTTP response headers after 10046.8959ms - 502
+2022-05-06 21:27:48.905 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:27:54.842 +03:00 [INF] Received HTTP response headers after 5936.9624ms - 200
+2022-05-06 21:27:54.850 +03:00 [INF] End processing HTTP request after 26295.0484ms - 200
+2022-05-06 21:27:55.253 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 26757.3811ms
+2022-05-06 21:27:55.255 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:27:55.261 +03:00 [INF] NOT FOUND EXCEPTION: There is no order with the customer
+2022-05-06 21:27:55.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887f - - - 404 - application/json 27570.3288ms
+2022-05-06 21:28:06.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887g - -
+2022-05-06 21:28:06.417 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:06.417 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:06.417 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:06.417 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:06.417 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:06.417 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:06.417 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:06.419 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:06.420 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:06.423 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887g"
+2022-05-06 21:28:06.423 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887g"
+2022-05-06 21:28:06.491 +03:00 [INF] Received HTTP response headers after 67.7359ms - 400
+2022-05-06 21:28:06.491 +03:00 [INF] End processing HTTP request after 68.1423ms - 400
+2022-05-06 21:28:06.494 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 74.0378ms
+2022-05-06 21:28:06.494 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:06.495 +03:00 [ERR] UNEXPECTED EXCEPTION OCCURED: 'Bad request' response from remote server
+2022-05-06 21:28:06.497 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887g - - - 500 - application/json 81.4660ms
+2022-05-06 21:28:10.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887g - -
+2022-05-06 21:28:10.696 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:10.696 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:10.696 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:10.696 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:10.696 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:10.696 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:10.696 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:10.697 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:10.699 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:10.701 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887g"
+2022-05-06 21:28:10.701 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887g"
+2022-05-06 21:28:10.715 +03:00 [INF] Received HTTP response headers after 14.0972ms - 400
+2022-05-06 21:28:10.715 +03:00 [INF] End processing HTTP request after 14.4438ms - 400
+2022-05-06 21:28:10.716 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 16.0169ms
+2022-05-06 21:28:10.716 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:10.716 +03:00 [ERR] UNEXPECTED EXCEPTION OCCURED: 'Bad request' response from remote server
+2022-05-06 21:28:10.716 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887g - - - 500 - application/json 20.8530ms
+2022-05-06 21:28:22.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887f - -
+2022-05-06 21:28:22.818 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:22.818 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:22.818 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:22.819 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:22.819 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:22.819 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:22.819 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:22.819 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:22.819 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:22.819 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:28:22.819 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/62752cf500534398d1f8887f"
+2022-05-06 21:28:22.842 +03:00 [INF] Received HTTP response headers after 22.3975ms - 200
+2022-05-06 21:28:22.842 +03:00 [INF] End processing HTTP request after 22.7524ms - 200
+2022-05-06 21:28:22.846 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 27.3085ms
+2022-05-06 21:28:22.846 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:22.847 +03:00 [INF] NOT FOUND EXCEPTION: There is no order with the customer
+2022-05-06 21:28:22.847 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/62752cf500534398d1f8887f - - - 404 - application/json 28.7735ms
+2022-05-06 21:28:27.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:28:27.165 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:27.165 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:27.165 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:27.165 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:27.165 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:27.165 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:27.165 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:27.165 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:27.165 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:27.165 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:27.166 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:27.214 +03:00 [INF] Received HTTP response headers after 48.714ms - 404
+2022-05-06 21:28:27.215 +03:00 [INF] End processing HTTP request after 49.4129ms - 404
+2022-05-06 21:28:27.216 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 50.9945ms
+2022-05-06 21:28:27.216 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:27.217 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:52752cf500534398d1f8887f is not found
+2022-05-06 21:28:27.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 404 - application/json 52.6239ms
+2022-05-06 21:28:35.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:28:35.389 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:35.389 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:35.389 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:35.389 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:35.389 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:35.389 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:35.389 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:35.389 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:35.390 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:35.390 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:35.392 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:35.412 +03:00 [INF] Received HTTP response headers after 20.3548ms - 404
+2022-05-06 21:28:35.412 +03:00 [INF] End processing HTTP request after 22.3887ms - 404
+2022-05-06 21:28:35.413 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 23.0671ms
+2022-05-06 21:28:35.413 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:35.413 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:52752cf500534398d1f8887f is not found
+2022-05-06 21:28:35.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 404 - application/json 24.8088ms
+2022-05-06 21:28:36.046 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:28:36.047 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:36.047 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:36.047 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:36.047 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:36.047 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:36.047 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:36.047 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:36.047 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:36.047 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:36.047 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:36.047 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:36.063 +03:00 [INF] Received HTTP response headers after 15.7682ms - 404
+2022-05-06 21:28:36.063 +03:00 [INF] End processing HTTP request after 16.0857ms - 404
+2022-05-06 21:28:36.064 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 16.7514ms
+2022-05-06 21:28:36.064 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:36.064 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:52752cf500534398d1f8887f is not found
+2022-05-06 21:28:36.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 404 - application/json 18.0553ms
+2022-05-06 21:28:36.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:28:36.790 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:36.790 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:36.790 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:36.790 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:36.790 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:36.790 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:36.790 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:36.790 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:36.791 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:36.791 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:36.791 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:36.811 +03:00 [INF] Received HTTP response headers after 19.8597ms - 404
+2022-05-06 21:28:36.811 +03:00 [INF] End processing HTTP request after 20.1427ms - 404
+2022-05-06 21:28:36.811 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 20.669ms
+2022-05-06 21:28:36.811 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:36.812 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:52752cf500534398d1f8887f is not found
+2022-05-06 21:28:36.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 404 - application/json 21.9160ms
+2022-05-06 21:28:39.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:28:39.545 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:28:39.545 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:28:39.545 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:28:39.545 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:28:39.545 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:28:39.545 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:28:39.545 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:28:39.545 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:39.545 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:28:39.546 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:39.546 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:28:39.560 +03:00 [INF] Received HTTP response headers after 13.679ms - 404
+2022-05-06 21:28:39.560 +03:00 [INF] End processing HTTP request after 14.0854ms - 404
+2022-05-06 21:28:39.560 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 14.7848ms
+2022-05-06 21:28:39.560 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:28:39.561 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:52752cf500534398d1f8887f is not found
+2022-05-06 21:28:39.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 404 - application/json 16.2477ms
+2022-05-06 21:29:15.005 +03:00 [INF] Application is shutting down...
+2022-05-06 21:30:48.705 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-06 21:30:48.716 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-06 21:30:48.716 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-06 21:30:48.716 +03:00 [INF] Hosting environment: Development
+2022-05-06 21:30:48.716 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-06 21:30:49.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-06 21:30:49.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 173.9950ms
+2022-05-06 21:30:50.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-06 21:30:50.214 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.1971ms
+2022-05-06 21:31:13.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:31:13.724 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:31:13.730 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:31:13.737 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:31:13.738 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:31:13.741 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:31:13.742 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:31:13.742 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:31:13.805 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:31:14.489 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:31:14.553 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:31:14.583 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:31:14.697 +03:00 [INF] Received HTTP response headers after 108.591ms - 404
+2022-05-06 21:31:14.708 +03:00 [INF] End processing HTTP request after 159.4363ms - 404
+2022-05-06 21:31:14.727 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 229.7806ms
+2022-05-06 21:31:14.728 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:31:14.733 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:52752cf500534398d1f8887f is not found
+2022-05-06 21:31:14.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 404 - application/json 1041.3241ms
+2022-05-06 21:31:25.100 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:31:25.101 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:31:25.101 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:31:25.101 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:31:25.101 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:31:25.101 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:31:25.101 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:31:25.101 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:31:25.102 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:31:25.103 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:31:25.106 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:31:25.107 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:31:35.154 +03:00 [INF] Received HTTP response headers after 10047.0995ms - 502
+2022-05-06 21:31:35.165 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:31:45.209 +03:00 [INF] Received HTTP response headers after 10043.4421ms - 502
+2022-05-06 21:31:45.210 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:31:55.254 +03:00 [INF] Received HTTP response headers after 10044.075ms - 502
+2022-05-06 21:31:55.254 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:32:05.286 +03:00 [INF] Received HTTP response headers after 10031.3773ms - 502
+2022-05-06 21:32:05.286 +03:00 [INF] End processing HTTP request after 40179.9058ms - 502
+2022-05-06 21:32:05.289 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 40185.8733ms
+2022-05-06 21:32:05.290 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:32:05.291 +03:00 [INF] REMOTE SERVER EXCEPTION: Remote service is not responding, try again later
+2022-05-06 21:32:05.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 503 - application/json 40192.8988ms
+2022-05-06 21:32:16.261 +03:00 [INF] Application is shutting down...
+2022-05-06 21:32:22.681 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-06 21:32:22.693 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-06 21:32:22.694 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-06 21:32:22.694 +03:00 [INF] Hosting environment: Development
+2022-05-06 21:32:22.694 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-06 21:32:23.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-06 21:32:23.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 163.1794ms
+2022-05-06 21:32:24.180 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-06 21:32:24.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 158.4602ms
+2022-05-06 21:32:25.552 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:32:25.570 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:32:25.578 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:32:25.582 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:32:25.582 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:32:25.584 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:32:25.584 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:32:25.584 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:32:25.633 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:32:26.323 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:32:26.387 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:32:26.416 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:32:31.449 +03:00 [INF] TIMEOUT ERROR
+2022-05-06 21:32:31.471 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 5139.2262ms
+2022-05-06 21:32:31.473 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:32:31.478 +03:00 [ERR] UNEXPECTED EXCEPTION OCCURED: The delegate executed asynchronously through TimeoutPolicy did not complete within the timeout.
+2022-05-06 21:32:31.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 500 - application/json 5935.7170ms
+2022-05-06 21:34:42.803 +03:00 [INF] Application is shutting down...
+2022-05-06 21:39:37.088 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-06 21:39:37.099 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-06 21:39:37.099 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-06 21:39:37.099 +03:00 [INF] Hosting environment: Development
+2022-05-06 21:39:37.099 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-06 21:39:37.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-06 21:39:37.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 176.6306ms
+2022-05-06 21:39:38.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-06 21:39:38.577 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.6885ms
+2022-05-06 21:40:21.276 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:40:21.295 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:40:21.300 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:40:21.304 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:40:21.304 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:40:21.306 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:40:21.307 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:40:21.307 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:40:21.354 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:40:22.010 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:40:22.076 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:40:22.104 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:40:32.149 +03:00 [ERR] CUSTOMER SERVICE IS NOT RESPONDING
+2022-05-06 21:40:32.173 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 10153.6822ms
+2022-05-06 21:40:32.175 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:40:32.180 +03:00 [INF] REMOTE SERVER EXCEPTION: External server took so much time to respond
+2022-05-06 21:40:32.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 503 - application/json 10912.9415ms
+2022-05-06 21:41:16.988 +03:00 [INF] Application is shutting down...
+2022-05-06 21:41:23.664 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-06 21:41:23.679 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-06 21:41:23.679 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-06 21:41:23.679 +03:00 [INF] Hosting environment: Development
+2022-05-06 21:41:23.679 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-06 21:41:23.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:41:24.098 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:41:24.112 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:41:24.124 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:41:24.124 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:41:24.129 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:41:24.129 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:41:24.129 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:41:24.235 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:41:24.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-06 21:41:24.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 401.5848ms
+2022-05-06 21:41:25.729 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:41:25.817 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:41:25.857 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:41:36.018 +03:00 [INF] Received HTTP response headers after 10153.579ms - 502
+2022-05-06 21:41:36.027 +03:00 [WRN] CUSTOMER SERVICE IS NOT RESPONDING. TRYING AGAIN: 1
+2022-05-06 21:41:36.028 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:41:45.880 +03:00 [ERR] CUSTOMER SERVICE IS NOT RESPONDING
+2022-05-06 21:41:45.910 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 20167.9265ms
+2022-05-06 21:41:45.912 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:41:45.921 +03:00 [INF] REMOTE SERVER EXCEPTION: External server took so much time to respond
+2022-05-06 21:41:45.935 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 503 - application/json 21969.1584ms
+2022-05-06 21:42:28.916 +03:00 [INF] Application is shutting down...
+2022-05-06 21:42:34.964 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-06 21:42:34.976 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-06 21:42:34.976 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-06 21:42:34.976 +03:00 [INF] Hosting environment: Development
+2022-05-06 21:42:34.976 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-06 21:42:35.628 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-06 21:42:35.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 158.6685ms
+2022-05-06 21:42:36.438 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-06 21:42:36.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.4495ms
+2022-05-06 21:42:40.643 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - -
+2022-05-06 21:42:40.663 +03:00 [INF] No cached response available for this request.
+2022-05-06 21:42:40.670 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-06 21:42:40.678 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-06 21:42:40.678 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-06 21:42:40.681 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-06 21:42:40.681 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-06 21:42:40.681 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-06 21:42:40.742 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:42:41.392 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-06 21:42:41.458 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:42:41.489 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:42:51.624 +03:00 [INF] Received HTTP response headers after 10125.9838ms - 502
+2022-05-06 21:42:51.634 +03:00 [WRN] CUSTOMER SERVICE IS NOT RESPONDING. TRYING AGAIN: 1
+2022-05-06 21:42:51.635 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:43:01.666 +03:00 [INF] Received HTTP response headers after 10030.0928ms - 502
+2022-05-06 21:43:01.666 +03:00 [WRN] CUSTOMER SERVICE IS NOT RESPONDING. TRYING AGAIN: 2
+2022-05-06 21:43:01.666 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:43:11.701 +03:00 [INF] Received HTTP response headers after 10034.1122ms - 502
+2022-05-06 21:43:11.701 +03:00 [WRN] CUSTOMER SERVICE IS NOT RESPONDING. TRYING AGAIN: 3
+2022-05-06 21:43:11.701 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/52752cf500534398d1f8887f"
+2022-05-06 21:43:21.719 +03:00 [INF] Received HTTP response headers after 10018.0777ms - 502
+2022-05-06 21:43:21.727 +03:00 [INF] End processing HTTP request after 40273.0551ms - 502
+2022-05-06 21:43:21.741 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 40342.3521ms
+2022-05-06 21:43:21.742 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-05-06 21:43:21.747 +03:00 [INF] REMOTE SERVER EXCEPTION: Remote service is not responding, try again later
+2022-05-06 21:43:21.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/52752cf500534398d1f8887f - - - 503 - application/json 41113.1496ms
+2022-05-06 21:54:05.808 +03:00 [INF] Application is shutting down...
+2022-05-07 02:24:09.406 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-07 02:24:09.418 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-07 02:24:09.419 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-07 02:24:09.419 +03:00 [INF] Hosting environment: Development
+2022-05-07 02:24:09.419 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-07 02:24:10.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-07 02:24:10.352 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 199.6446ms
+2022-05-07 02:24:11.080 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-07 02:24:11.248 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 168.0836ms
+2022-05-07 02:26:19.650 +03:00 [INF] Application is shutting down...
+2022-05-13 09:42:39.327 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-13 09:42:39.340 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-13 09:42:39.341 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-13 09:42:39.341 +03:00 [INF] Hosting environment: Development
+2022-05-13 09:42:39.341 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-13 09:42:39.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-13 09:42:39.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 172.0208ms
+2022-05-13 09:42:40.742 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-13 09:42:40.899 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.1287ms
+2022-05-13 09:42:42.678 +03:00 [INF] Application is shutting down...
+2022-05-14 13:50:24.498 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-14 13:50:24.510 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-14 13:50:24.511 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-14 13:50:24.511 +03:00 [INF] Hosting environment: Development
+2022-05-14 13:50:24.511 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-14 13:50:25.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-14 13:50:25.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 224.5332ms
+2022-05-14 13:50:26.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-14 13:50:26.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.2505ms
+2022-05-14 13:51:36.469 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 49
+2022-05-14 13:51:36.490 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-14 13:51:36.495 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-05-14 13:51:36.495 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-14 13:51:36.498 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-14 13:51:36.498 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-14 13:51:36.498 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-14 13:51:36.561 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-05-14 13:51:36.646 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-05-14 13:51:38.114 +03:00 [INF] New product added with id 627f89b9e56326d94a322578
+2022-05-14 13:51:38.131 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-05-14 13:51:38.198 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 1544.4441ms
+2022-05-14 13:51:38.202 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-05-14 13:51:38.208 +03:00 [INF] Generating expiration headers.
+2022-05-14 13:51:38.210 +03:00 [INF] Expiration headers generated. Expires: Sat, 14 May 2022 10:53:38 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-05-14 13:51:38.213 +03:00 [INF] Generating Validation headers.
+2022-05-14 13:51:38.230 +03:00 [INF] Validation headers generated. ETag: Strong, "A46E198D2EFC1F93C63FC85DECB16DBA". Last-Modified: Sat, 14 May 2022 10:51:38 GMT
+2022-05-14 13:51:38.231 +03:00 [INF] Generating Vary header.
+2022-05-14 13:51:38.231 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-05-14 13:51:38.241 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 49 - 201 - application/json;+charset=utf-8 1772.1388ms
+2022-05-14 13:51:44.345 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Order application/json 101
+2022-05-14 13:51:44.346 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-14 13:51:44.346 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-05-14 13:51:44.347 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-14 13:51:44.347 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-14 13:51:44.347 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-14 13:51:44.347 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-14 13:51:44.349 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation)'
+2022-05-14 13:51:44.355 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderApplication.Models.DTO.OrderForCreation) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-14 13:51:44.588 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-05-14 13:51:44.622 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-05-14 13:51:45.521 +03:00 [INF] Received HTTP response headers after 894.2762ms - 200
+2022-05-14 13:51:45.533 +03:00 [INF] End processing HTTP request after 948.3527ms - 200
+2022-05-14 13:51:45.560 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/627f85b7145de8d19a61ed6e"
+2022-05-14 13:51:45.560 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/627f85b7145de8d19a61ed6e"
+2022-05-14 13:51:45.601 +03:00 [INF] Received HTTP response headers after 40.4025ms - 200
+2022-05-14 13:51:45.601 +03:00 [INF] End processing HTTP request after 41.2316ms - 200
+2022-05-14 13:51:45.661 +03:00 [INF] New order added with id 627f89c1e56326d94a322579
+2022-05-14 13:51:45.661 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Order'.
+2022-05-14 13:51:45.669 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation) in 1314.0062ms
+2022-05-14 13:51:45.669 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation)'
+2022-05-14 13:51:45.670 +03:00 [INF] Generating expiration headers.
+2022-05-14 13:51:45.670 +03:00 [INF] Expiration headers generated. Expires: Sat, 14 May 2022 10:53:45 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-05-14 13:51:45.670 +03:00 [INF] Generating Validation headers.
+2022-05-14 13:51:45.670 +03:00 [INF] Validation headers generated. ETag: Strong, "B28783127DFFA345E44DB3446DB0DCEE". Last-Modified: Sat, 14 May 2022 10:51:45 GMT
+2022-05-14 13:51:45.670 +03:00 [INF] Generating Vary header.
+2022-05-14 13:51:45.670 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-05-14 13:51:45.671 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Order application/json 101 - 201 - application/json;+charset=utf-8 1326.3258ms
+2022-05-14 14:07:01.750 +03:00 [INF] Application is shutting down...
+2022-05-14 14:07:06.859 +03:00 [INF] Application is shutting down...
+2022-05-14 14:07:06.874 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-14 14:07:06.878 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-14 14:07:06.878 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-14 14:07:06.878 +03:00 [INF] Hosting environment: Development
+2022-05-14 14:07:06.878 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-18 22:43:34.996 +03:00 [INF] Now listening on: https://localhost:5001
+2022-05-18 22:43:35.014 +03:00 [INF] Now listening on: http://localhost:5000
+2022-05-18 22:43:35.015 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-18 22:43:35.015 +03:00 [INF] Hosting environment: Development
+2022-05-18 22:43:35.015 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-05-18 22:43:36.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2022-05-18 22:43:36.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 424.4850ms
+2022-05-18 22:43:36.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-05-18 22:43:36.808 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 106.6308ms
+2022-05-18 22:43:36.865 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2022-05-18 22:43:36.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-05-18 22:43:36.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-05-18 22:43:36.940 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-05-18 22:43:36.940 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-05-18 22:43:36.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 81.7345ms
+2022-05-18 22:43:36.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 82.1831ms
+2022-05-18 22:43:36.952 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-05-18 22:43:36.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 86.5566ms
+2022-05-18 22:43:37.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2022-05-18 22:43:37.203 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-05-18 22:43:37.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 0.6272ms
+2022-05-18 22:43:38.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-05-18 22:43:39.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.9157ms
+2022-05-18 22:43:51.848 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order - -
+2022-05-18 22:43:51.871 +03:00 [INF] No cached response available for this request.
+2022-05-18 22:43:51.900 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-05-18 22:43:51.913 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-05-18 22:43:51.914 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-05-18 22:43:51.917 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-05-18 22:43:51.917 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-05-18 22:43:51.917 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-05-18 22:43:51.987 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-05-18 22:43:52.070 +03:00 [INF] Route matched with {action = "GetAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-05-18 22:43:54.019 +03:00 [INF] Getting all orders data's from database
+2022-05-18 22:43:54.031 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderDomain.Entities.Order, OrderDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-05-18 22:43:54.055 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation) in 1976.6809ms
+2022-05-18 22:43:54.059 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-05-18 22:43:54.065 +03:00 [INF] Generating expiration headers.
+2022-05-18 22:43:54.068 +03:00 [INF] Expiration headers generated. Expires: Wed, 18 May 2022 19:45:54 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-05-18 22:43:54.071 +03:00 [INF] Generating Validation headers.
+2022-05-18 22:43:54.098 +03:00 [INF] Validation headers generated. ETag: Strong, "DAD6E72F49FB3C5AE17E9B74BD4EA5B2". Last-Modified: Wed, 18 May 2022 19:43:54 GMT
+2022-05-18 22:43:54.099 +03:00 [INF] Generating Vary header.
+2022-05-18 22:43:54.099 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-05-18 22:43:54.110 +03:00 [INF] The response could not be cached for this request.
+2022-05-18 22:43:54.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order - - - 200 - application/json;+charset=utf-8 2262.7945ms
+2022-05-20 15:14:36.575 +03:00 [INF] Application is shutting down...
+2022-06-16 13:31:21.264 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-16 13:31:21.284 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-16 13:31:21.285 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-16 13:31:21.285 +03:00 [INF] Hosting environment: Development
+2022-06-16 13:31:21.285 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-16 13:31:22.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2022-06-16 13:31:22.881 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 522.7103ms
+2022-06-16 13:31:22.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-16 13:31:22.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 84.7062ms
+2022-06-16 13:31:23.097 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2022-06-16 13:31:23.102 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-06-16 13:31:23.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-06-16 13:31:23.482 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-06-16 13:31:23.485 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 368.8593ms
+2022-06-16 13:31:23.506 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-06-16 13:31:23.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 409.1587ms
+2022-06-16 13:31:23.764 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-06-16 13:31:23.764 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 662.3382ms
+2022-06-16 13:31:24.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2022-06-16 13:31:24.021 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-06-16 13:31:24.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 0.9566ms
+2022-06-16 14:54:02.055 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-16 14:54:02.066 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-16 14:54:02.066 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-16 14:54:02.066 +03:00 [INF] Hosting environment: Development
+2022-06-16 14:54:02.066 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-16 14:54:08.824 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2022-06-16 14:54:08.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 160.0964ms
+2022-06-16 14:54:09.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-16 14:54:09.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 118.9121ms
+2022-06-16 14:54:09.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-06-16 14:54:09.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-06-16 14:54:09.195 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2022-06-16 14:54:09.239 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-06-16 14:54:09.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 49.1070ms
+2022-06-16 14:54:09.261 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-06-16 14:54:09.261 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 67.7487ms
+2022-06-16 14:54:09.275 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-06-16 14:54:09.276 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 81.9524ms
+2022-06-16 14:54:09.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2022-06-16 14:54:09.766 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-06-16 14:54:09.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 7.9690ms
+2022-06-16 14:54:12.203 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-16 14:54:12.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.6356ms
+2022-06-16 14:54:27.850 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order - -
+2022-06-16 14:54:27.872 +03:00 [INF] No cached response available for this request.
+2022-06-16 14:54:27.908 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-16 14:54:27.917 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-16 14:54:27.917 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-16 14:54:27.921 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-16 14:54:27.921 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-16 14:54:27.922 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-16 14:54:27.985 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-06-16 14:54:28.055 +03:00 [INF] Route matched with {action = "GetAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-16 14:54:29.644 +03:00 [INF] Getting all orders data's from database
+2022-06-16 14:54:29.657 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderDomain.Entities.Order, OrderDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-16 14:54:29.681 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation) in 1617.5324ms
+2022-06-16 14:54:29.684 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-06-16 14:54:29.691 +03:00 [INF] Generating expiration headers.
+2022-06-16 14:54:29.694 +03:00 [INF] Expiration headers generated. Expires: Thu, 16 Jun 2022 11:56:29 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-16 14:54:29.696 +03:00 [INF] Generating Validation headers.
+2022-06-16 14:54:29.712 +03:00 [INF] Validation headers generated. ETag: Strong, "DAD6E72F49FB3C5AE17E9B74BD4EA5B2". Last-Modified: Thu, 16 Jun 2022 11:54:29 GMT
+2022-06-16 14:54:29.713 +03:00 [INF] Generating Vary header.
+2022-06-16 14:54:29.713 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-16 14:54:29.724 +03:00 [INF] The response could not be cached for this request.
+2022-06-16 14:54:29.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order - - - 200 - application/json;+charset=utf-8 1874.5544ms
+2022-06-16 14:54:41.992 +03:00 [INF] Application is shutting down...
+2022-06-17 17:00:44.702 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-17 17:00:44.713 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-17 17:00:44.714 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-17 17:00:44.714 +03:00 [INF] Hosting environment: Development
+2022-06-17 17:00:44.714 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-17 17:00:45.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-17 17:00:45.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 309.0357ms
+2022-06-17 17:00:46.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-17 17:00:47.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.9683ms
+2022-06-17 17:00:54.411 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Order/status/da/sdas - 0
+2022-06-17 17:00:54.445 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-17 17:00:54.449 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-17 17:00:54.449 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-17 17:00:54.451 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-17 17:00:54.455 +03:00 [INF] Not valid - no If Match or If Unmodified-Since headers.
+2022-06-17 17:00:54.455 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-17 17:00:54.511 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.UpdateStatus (OrderPresentation)'
+2022-06-17 17:00:54.583 +03:00 [INF] Route matched with {action = "UpdateStatus", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateStatus(System.String, System.String) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-17 17:01:25.879 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.UpdateStatus (OrderPresentation) in 31267.932ms
+2022-06-17 17:01:25.891 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.UpdateStatus (OrderPresentation)'
+2022-06-17 17:01:25.905 +03:00 [ERR] UNEXPECTED EXCEPTION OCCURED: A timeout occurred after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/localhost:27017" }", EndPoint: "Unspecified/localhost:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. [::1]:27017
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.Connect(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2022-06-17T14:01:23.3555212Z", LastUpdateTimestamp: "2022-06-17T14:01:23.3555215Z" }] }.
+2022-06-17 17:01:25.919 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Order/status/da/sdas - 0 - 500 - application/json 31508.8770ms
+2022-06-17 17:02:43.904 +03:00 [INF] Application is shutting down...
+2022-06-17 17:02:53.559 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-17 17:02:53.570 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-17 17:02:53.571 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-17 17:02:53.571 +03:00 [INF] Hosting environment: Development
+2022-06-17 17:02:53.571 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-17 17:02:54.138 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-17 17:02:54.541 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 407.7537ms
+2022-06-17 17:02:55.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-17 17:02:55.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.5506ms
+2022-06-17 17:03:08.942 +03:00 [INF] Application is shutting down...
+2022-06-18 15:32:40.589 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 15:32:40.600 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 15:32:40.601 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 15:32:40.601 +03:00 [INF] Hosting environment: Development
+2022-06-18 15:32:40.601 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 15:32:41.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 15:32:41.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 162.4036ms
+2022-06-18 15:32:42.263 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-18 15:32:42.416 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.3011ms
+2022-06-18 15:33:21.744 +03:00 [INF] Application is shutting down...
+2022-06-18 15:33:40.811 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 15:33:40.821 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 15:33:40.822 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 15:33:40.822 +03:00 [INF] Hosting environment: Development
+2022-06-18 15:33:40.822 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 15:33:41.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 15:33:41.653 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 142.6122ms
+2022-06-18 15:33:42.378 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-18 15:33:42.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.6282ms
+2022-06-18 15:34:00.357 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/32779b515453b9a42f50dabc - -
+2022-06-18 15:34:00.372 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:00.372 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:00.372 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:00.375 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:00.375 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:00.375 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:00.419 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:00.421 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:00 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:00.423 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:00.424 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:00.424 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:00.428 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/32779b515453b9a42f50dabc - - - 404 0 - 70.4975ms
+2022-06-18 15:34:00.661 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/62779b515453b9a42f50dabc - -
+2022-06-18 15:34:00.662 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:00.662 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:00.662 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:00.662 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:00.662 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:00.662 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:00.662 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:00.662 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:00 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:00.662 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:00.662 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:00.662 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:00.663 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/62779b515453b9a42f50dabc - - - 404 0 - 1.2376ms
+2022-06-18 15:34:00.714 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/12779b515453b9a42f50dabc - -
+2022-06-18 15:34:00.715 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:00.715 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:00.715 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:00.715 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:00.715 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:00.715 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:00.715 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:00.715 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:00 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:00.715 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:00.715 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:00.715 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:00.716 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/12779b515453b9a42f50dabc - - - 404 0 - 1.5197ms
+2022-06-18 15:34:26.948 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/32779b515453b9a42f50dabc - -
+2022-06-18 15:34:26.948 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:26.948 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:26.948 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:26.948 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:26.948 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:26.948 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:26.948 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:26.948 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:26 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:26.949 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:26.949 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:26.949 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:26.949 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/32779b515453b9a42f50dabc - - - 404 0 - 0.9235ms
+2022-06-18 15:34:27.179 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/62779b515453b9a42f50dabc - -
+2022-06-18 15:34:27.179 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:27.179 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:27.179 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:27.179 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:27.179 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:27.179 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:27.179 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:27.179 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:27 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:27.179 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:27.179 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:27.180 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:27.180 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/62779b515453b9a42f50dabc - - - 404 0 - 0.9421ms
+2022-06-18 15:34:27.216 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/12779b515453b9a42f50dabc - -
+2022-06-18 15:34:27.216 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:27.217 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:27.217 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:27.217 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:27.217 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:27.217 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:27.217 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:27.217 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:27 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:27.217 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:27.217 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:27.217 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:27.217 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/12779b515453b9a42f50dabc - - - 404 0 - 0.6798ms
+2022-06-18 15:34:27.278 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/54651022bffebc03098b4562 - -
+2022-06-18 15:34:27.278 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:27.278 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:27.278 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:27.278 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:27.278 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:27.278 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:27.279 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:27.279 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:27 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:27.279 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:27.279 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:27.279 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:27.279 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/54651022bffebc03098b4562 - - - 404 0 - 0.7595ms
+2022-06-18 15:34:27.330 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/54651022bffebc03098b4563 - -
+2022-06-18 15:34:27.330 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:27.330 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:27.330 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:27.330 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:27.330 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:27.330 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:27.330 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:27.330 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:27 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:27.330 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:27.330 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:27.330 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:27.330 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/54651022bffebc03098b4563 - - - 404 0 - 0.7306ms
+2022-06-18 15:34:27.387 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/Order/customer/54651022bffebc03098b4561 - -
+2022-06-18 15:34:27.387 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 15:34:27.387 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 15:34:27.387 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 15:34:27.387 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 15:34:27.388 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 15:34:27.388 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 15:34:27.388 +03:00 [INF] Generating expiration headers.
+2022-06-18 15:34:27.388 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 12:36:27 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 15:34:27.388 +03:00 [INF] Not generating Validation headers as the response status code does not indicate success.
+2022-06-18 15:34:27.388 +03:00 [INF] Generating Vary header.
+2022-06-18 15:34:27.388 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 15:34:27.388 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/Order/customer/54651022bffebc03098b4561 - - - 404 0 - 0.6649ms
+2022-06-18 15:34:56.308 +03:00 [INF] Application is shutting down...
+2022-06-18 15:56:41.844 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 15:56:41.856 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 15:56:41.856 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 15:56:41.856 +03:00 [INF] Hosting environment: Development
+2022-06-18 15:56:41.856 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 15:56:42.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 15:56:42.378 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 170.0973ms
+2022-06-18 15:56:43.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-18 15:56:43.342 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.6950ms
+2022-06-18 15:56:53.305 +03:00 [INF] Application is shutting down...
+2022-06-18 16:35:29.451 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 16:35:29.472 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 16:35:29.472 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 16:35:29.472 +03:00 [INF] Hosting environment: Development
+2022-06-18 16:35:29.472 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 16:35:29.902 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 16:35:30.101 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 203.7456ms
+2022-06-18 16:35:33.344 +03:00 [INF] Application is shutting down...
+2022-06-18 16:35:49.213 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 16:35:49.224 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 16:35:49.225 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 16:35:49.225 +03:00 [INF] Hosting environment: Development
+2022-06-18 16:35:49.225 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 16:35:51.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 16:35:51.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 417.4782ms
+2022-06-18 16:35:52.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-18 16:35:53.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 385.5815ms
+2022-06-18 16:35:59.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/62ac86abdd32c27597d3b1f1 - -
+2022-06-18 16:35:59.695 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:35:59.718 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:35:59.729 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:35:59.729 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:35:59.731 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:35:59.731 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:35:59.731 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:35:59.779 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:36:00.674 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:36:00.919 +03:00 [INF] Start processing HTTP request GET "http://localhost:8001/Customer/validate/62ac86abdd32c27597d3b1f1"
+2022-06-18 16:36:00.948 +03:00 [INF] Sending HTTP request GET "http://localhost:8001/Customer/validate/62ac86abdd32c27597d3b1f1"
+2022-06-18 16:36:01.427 +03:00 [INF] Received HTTP response headers after 477.1022ms - 404
+2022-06-18 16:36:01.436 +03:00 [INF] End processing HTTP request after 522.4239ms - 404
+2022-06-18 16:36:01.926 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 1248.3996ms
+2022-06-18 16:36:01.928 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:36:10.598 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:62ac86abdd32c27597d3b1f1 is not found
+2022-06-18 16:36:10.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/62ac86abdd32c27597d3b1f1 - - - 404 - application/json 10928.2506ms
+2022-06-18 16:36:31.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/627f85b7145de8d19a61ed6e - -
+2022-06-18 16:36:31.301 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:36:31.301 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:36:31.301 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:36:31.301 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:36:31.301 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:36:31.301 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:36:31.301 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:36:31.302 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:36:31.303 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:36:31.306 +03:00 [INF] Start processing HTTP request GET "http://localhost:8001/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:36:31.307 +03:00 [INF] Sending HTTP request GET "http://localhost:8001/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:36:31.315 +03:00 [INF] Received HTTP response headers after 8.4669ms - 404
+2022-06-18 16:36:31.315 +03:00 [INF] End processing HTTP request after 9.0971ms - 404
+2022-06-18 16:36:31.587 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 284.1928ms
+2022-06-18 16:36:31.587 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:36:31.749 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:627f85b7145de8d19a61ed6e is not found
+2022-06-18 16:36:31.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/627f85b7145de8d19a61ed6e - - - 404 - application/json 453.2812ms
+2022-06-18 16:37:10.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/54651022bffebc03098b4562 - -
+2022-06-18 16:37:10.045 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:37:10.046 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:37:10.046 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:37:10.046 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:37:10.046 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:37:10.046 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:37:10.046 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:37:10.046 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:37:10.046 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:37:10.047 +03:00 [INF] Start processing HTTP request GET "http://localhost:8001/Customer/validate/54651022bffebc03098b4562"
+2022-06-18 16:37:10.047 +03:00 [INF] Sending HTTP request GET "http://localhost:8001/Customer/validate/54651022bffebc03098b4562"
+2022-06-18 16:37:10.053 +03:00 [INF] Received HTTP response headers after 5.2119ms - 404
+2022-06-18 16:37:10.054 +03:00 [INF] End processing HTTP request after 6.4302ms - 404
+2022-06-18 16:37:10.313 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 266.51ms
+2022-06-18 16:37:10.313 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:37:10.460 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:54651022bffebc03098b4562 is not found
+2022-06-18 16:37:10.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/54651022bffebc03098b4562 - - - 404 - application/json 418.4247ms
+2022-06-18 16:37:53.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order - -
+2022-06-18 16:37:53.186 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:37:53.186 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:37:53.186 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:37:53.186 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:37:53.186 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:37:53.186 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:37:53.186 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:37:53.187 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-06-18 16:37:53.190 +03:00 [INF] Route matched with {action = "GetAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:38:00.182 +03:00 [INF] Getting all orders data's from database
+2022-06-18 16:38:00.208 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderDomain.Entities.Order, OrderDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-18 16:38:00.234 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation) in 7043.8588ms
+2022-06-18 16:38:00.234 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-06-18 16:38:00.237 +03:00 [INF] Generating expiration headers.
+2022-06-18 16:38:00.244 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 13:40:00 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 16:38:00.248 +03:00 [INF] Generating Validation headers.
+2022-06-18 16:38:00.256 +03:00 [INF] Validation headers generated. ETag: Strong, "4CAF76CE771637CFCE40808997B80DB4". Last-Modified: Sat, 18 Jun 2022 13:38:00 GMT
+2022-06-18 16:38:00.257 +03:00 [INF] Generating Vary header.
+2022-06-18 16:38:00.257 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 16:38:00.264 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 16:38:00.264 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order - - - 200 - application/json;+charset=utf-8 7077.9727ms
+2022-06-18 16:38:06.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/627f85b7145de8d19a61ed6e - -
+2022-06-18 16:38:06.909 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:38:06.910 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:38:06.910 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:38:06.910 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:38:06.910 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:38:06.910 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:38:06.910 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:38:06.910 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:38:06.910 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:38:06.910 +03:00 [INF] Start processing HTTP request GET "http://localhost:8001/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:38:06.911 +03:00 [INF] Sending HTTP request GET "http://localhost:8001/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:38:06.934 +03:00 [INF] Received HTTP response headers after 23.4578ms - 404
+2022-06-18 16:38:06.934 +03:00 [INF] End processing HTTP request after 24.0638ms - 404
+2022-06-18 16:38:07.306 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 395.9618ms
+2022-06-18 16:38:07.306 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:38:07.472 +03:00 [INF] NOT FOUND EXCEPTION: Customer with id:627f85b7145de8d19a61ed6e is not found
+2022-06-18 16:38:07.472 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/627f85b7145de8d19a61ed6e - - - 404 - application/json 562.8312ms
+2022-06-18 16:38:21.438 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/627f85b7145de8d19a61ed6e - -
+2022-06-18 16:38:21.439 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:38:21.439 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:38:21.439 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:38:21.439 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:38:21.439 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:38:21.439 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:38:21.439 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:38:21.439 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:38:21.440 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:38:39.361 +03:00 [INF] Start processing HTTP request GET "http://localhost:8001/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:38:39.362 +03:00 [INF] Sending HTTP request GET "http://localhost:8001/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:38:39.391 +03:00 [INF] Received HTTP response headers after 29.5893ms - 404
+2022-06-18 16:38:39.391 +03:00 [INF] End processing HTTP request after 30.3041ms - 404
+2022-06-18 16:39:48.325 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 16:39:48.333 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 16:39:48.333 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 16:39:48.333 +03:00 [INF] Hosting environment: Development
+2022-06-18 16:39:48.333 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 16:39:49.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 16:39:49.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 214.2914ms
+2022-06-18 16:39:50.328 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-18 16:39:50.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.6332ms
+2022-06-18 16:39:53.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/627f85b7145de8d19a61ed6e - -
+2022-06-18 16:39:53.383 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:39:53.401 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:39:53.407 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:39:53.407 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:39:53.409 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:39:53.409 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:39:53.410 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:39:53.448 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:39:53.870 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:39:58.045 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:39:58.067 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 16:39:59.558 +03:00 [INF] Received HTTP response headers after 1488.9613ms - 200
+2022-06-18 16:39:59.565 +03:00 [INF] End processing HTTP request after 1525.149ms - 200
+2022-06-18 16:40:12.709 +03:00 [INF] Orders of customer with id 627f85b7145de8d19a61ed6e fetched
+2022-06-18 16:40:12.716 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderDomain.Entities.Order, OrderDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-18 16:40:12.731 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 18857.8998ms
+2022-06-18 16:40:12.732 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:40:12.735 +03:00 [INF] Generating expiration headers.
+2022-06-18 16:40:12.736 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 13:42:12 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 16:40:12.739 +03:00 [INF] Generating Validation headers.
+2022-06-18 16:40:12.746 +03:00 [INF] Validation headers generated. ETag: Strong, "C3FA8FB00397CE7832A04C235FD0BA58". Last-Modified: Sat, 18 Jun 2022 13:40:12 GMT
+2022-06-18 16:40:12.747 +03:00 [INF] Generating Vary header.
+2022-06-18 16:40:12.747 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 16:40:12.752 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 16:40:12.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/627f85b7145de8d19a61ed6e - - - 200 - application/json;+charset=utf-8 19388.2476ms
+2022-06-18 16:40:36.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/customer/54651022bffebc03098b4562 - -
+2022-06-18 16:40:36.053 +03:00 [INF] No cached response available for this request.
+2022-06-18 16:40:36.053 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 16:40:36.053 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 16:40:36.053 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 16:40:36.053 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 16:40:36.053 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 16:40:36.053 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 16:40:36.055 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:40:36.055 +03:00 [INF] Route matched with {action = "GetOrdersOfCustomers", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersOfCustomers(System.String, OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 16:40:36.057 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/54651022bffebc03098b4562"
+2022-06-18 16:40:36.057 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/54651022bffebc03098b4562"
+2022-06-18 16:40:36.082 +03:00 [INF] Received HTTP response headers after 24.8186ms - 200
+2022-06-18 16:40:36.083 +03:00 [INF] End processing HTTP request after 25.4334ms - 200
+2022-06-18 16:40:39.446 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation) in 3390.0354ms
+2022-06-18 16:40:39.446 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers (OrderPresentation)'
+2022-06-18 16:40:39.701 +03:00 [INF] NOT FOUND EXCEPTION: There is no order with the customer
+2022-06-18 16:40:39.705 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/customer/54651022bffebc03098b4562 - - - 404 - application/json 3654.0876ms
+2022-06-18 17:05:12.047 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 17:05:12.056 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 17:05:12.057 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 17:05:12.057 +03:00 [INF] Hosting environment: Development
+2022-06-18 17:05:12.057 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 17:05:12.580 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 17:05:12.954 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 375.4170ms
+2022-06-18 17:05:13.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-18 17:05:13.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.2958ms
+2022-06-18 17:05:17.235 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Product - -
+2022-06-18 17:05:17.254 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:05:17.273 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:05:17.283 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 17:05:17.284 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:05:17.286 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:05:17.287 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:05:17.287 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:05:17.330 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.GetAll (OrderPresentation)'
+2022-06-18 17:05:17.378 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:05:18.372 +03:00 [INF] Getting all products data's from database
+2022-06-18 17:05:18.380 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderDomain.Entities.Product, OrderDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-18 17:05:18.394 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.GetAll (OrderPresentation) in 1012.8506ms
+2022-06-18 17:05:18.396 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.GetAll (OrderPresentation)'
+2022-06-18 17:05:18.398 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:05:18.400 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:07:18 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:05:18.402 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:05:18.409 +03:00 [INF] Validation headers generated. ETag: Strong, "3A061AF0E849C3031A35CD86CFE773A2". Last-Modified: Sat, 18 Jun 2022 14:05:18 GMT
+2022-06-18 17:05:18.409 +03:00 [INF] Generating Vary header.
+2022-06-18 17:05:18.409 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:05:18.417 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 17:05:18.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Product - - - 200 - application/json;+charset=utf-8 1184.7504ms
+2022-06-18 17:05:22.308 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/627f89b9e56326d94a322578 - -
+2022-06-18 17:05:22.308 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:05:22.308 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:05:22.308 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:05:22.308 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:05:22.308 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:05:22.308 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:05:22.310 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:05:22.315 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:05:33.938 +03:00 [INF] Product with id 627f89b9e56326d94a322578 deleted.
+2022-06-18 17:05:36.774 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-06-18 17:05:36.774 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation) in 14459.3265ms
+2022-06-18 17:05:36.774 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:05:36.774 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:05:36.774 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:07:36 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:05:36.775 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:05:36.775 +03:00 [INF] Validation headers generated. ETag: Strong, "B93F50167B643879E5038B918FFFB5D3". Last-Modified: Sat, 18 Jun 2022 14:05:36 GMT
+2022-06-18 17:05:36.775 +03:00 [INF] Generating Vary header.
+2022-06-18 17:05:36.775 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:05:36.775 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Product/627f89b9e56326d94a322578 - - - 200 0 - 14467.4977ms
+2022-06-18 17:07:00.241 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/627f89b9e56326d94a322578 - -
+2022-06-18 17:07:00.246 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:07:00.246 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:07:00.247 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:07:00.247 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:07:00.247 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:07:00.247 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:07:00.247 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:07:00.247 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:07:11.629 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation) in 11382.2254ms
+2022-06-18 17:07:11.630 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:07:11.825 +03:00 [INF] NOT FOUND EXCEPTION: No product with id: 627f89b9e56326d94a322578
+2022-06-18 17:07:11.829 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Product/627f89b9e56326d94a322578 - - - 404 - application/json 11587.5881ms
+2022-06-18 17:07:15.777 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/627f89b9e56326d94a322578 - -
+2022-06-18 17:07:15.777 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:07:15.777 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:07:15.777 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:07:15.777 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:07:15.777 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:07:15.777 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:07:15.777 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:07:15.778 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:07:21.493 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation) in 5715.3139ms
+2022-06-18 17:07:21.494 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:07:21.805 +03:00 [INF] NOT FOUND EXCEPTION: No product with id: 627f89b9e56326d94a322578
+2022-06-18 17:07:21.806 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Product/627f89b9e56326d94a322578 - - - 404 - application/json 6031.2006ms
+2022-06-18 17:07:31.065 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 48
+2022-06-18 17:07:31.065 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:07:31.065 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:07:31.065 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:07:31.065 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:07:31.065 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:07:31.065 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:07:31.065 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:07:31.071 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:07:31.192 +03:00 [INF] New product added with id 62addc232f11068efb4eb327
+2022-06-18 17:07:31.195 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:07:31.236 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 164.6576ms
+2022-06-18 17:07:31.236 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:07:31.236 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:07:31.236 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:09:31 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:07:31.236 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:07:31.237 +03:00 [INF] Validation headers generated. ETag: Strong, "621681830FAEC8A16B61B30F0A39931D". Last-Modified: Sat, 18 Jun 2022 14:07:31 GMT
+2022-06-18 17:07:31.237 +03:00 [INF] Generating Vary header.
+2022-06-18 17:07:31.237 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:07:31.237 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 48 - 201 - application/json;+charset=utf-8 172.1457ms
+2022-06-18 17:07:38.205 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Product/62addc232f11068efb4eb327 - -
+2022-06-18 17:07:38.212 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:07:38.213 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:07:38.213 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 17:07:38.213 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:07:38.213 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:07:38.213 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:07:38.213 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:07:38.213 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.GetById (OrderPresentation)'
+2022-06-18 17:07:38.216 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:07:38.233 +03:00 [INF] Getting product data with 62addc232f11068efb4eb327 from database
+2022-06-18 17:07:38.233 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:07:38.233 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.GetById (OrderPresentation) in 17.4218ms
+2022-06-18 17:07:38.233 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.GetById (OrderPresentation)'
+2022-06-18 17:07:38.233 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:07:38.234 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:09:38 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:07:38.234 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:07:38.234 +03:00 [INF] Validation headers generated. ETag: Strong, "EDF60D2EB8C629B7700508CAAE740FD3". Last-Modified: Sat, 18 Jun 2022 14:07:38 GMT
+2022-06-18 17:07:38.234 +03:00 [INF] Generating Vary header.
+2022-06-18 17:07:38.234 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:07:38.234 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 17:07:38.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Product/62addc232f11068efb4eb327 - - - 200 - application/json;+charset=utf-8 29.5551ms
+2022-06-18 17:07:43.311 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/62addc232f11068efb4eb327 - -
+2022-06-18 17:07:43.311 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:07:43.311 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:07:43.311 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:07:43.311 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:07:43.312 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:07:43.312 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:07:43.312 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:07:43.312 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:07:43.332 +03:00 [INF] Product with id 62addc232f11068efb4eb327 deleted.
+2022-06-18 17:07:43.332 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-06-18 17:07:43.332 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation) in 20.106ms
+2022-06-18 17:07:43.332 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:07:43.332 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:07:43.333 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:09:43 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:07:43.333 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:07:43.333 +03:00 [INF] Validation headers generated. ETag: Strong, "C4279901A13C6E201D3DE652BD495F61". Last-Modified: Sat, 18 Jun 2022 14:07:43 GMT
+2022-06-18 17:07:43.333 +03:00 [INF] Generating Vary header.
+2022-06-18 17:07:43.333 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:07:43.333 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Product/62addc232f11068efb4eb327 - - - 200 0 - 22.0318ms
+2022-06-18 17:08:09.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Product/62addc232f11068efb4eb327 - -
+2022-06-18 17:08:09.982 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:08:09.984 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:08:09.984 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 17:08:09.984 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:08:09.984 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:08:09.984 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:08:09.985 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:08:09.987 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.GetById (OrderPresentation)'
+2022-06-18 17:08:09.987 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:08:10.208 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.GetById (OrderPresentation) in 221.195ms
+2022-06-18 17:08:10.209 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.GetById (OrderPresentation)'
+2022-06-18 17:08:10.366 +03:00 [INF] NOT FOUND EXCEPTION: No product with id: 62addc232f11068efb4eb327
+2022-06-18 17:08:10.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Product/62addc232f11068efb4eb327 - - - 404 - application/json 384.7958ms
+2022-06-18 17:08:12.959 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 48
+2022-06-18 17:08:12.963 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:08:12.963 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:08:12.963 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:08:12.963 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:08:12.963 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:08:12.963 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:08:12.963 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:08:12.963 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:08:12.971 +03:00 [INF] New product added with id 62addc4c2f11068efb4eb328
+2022-06-18 17:08:12.971 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:08:12.972 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 8.5137ms
+2022-06-18 17:08:12.972 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:08:12.972 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:08:12.972 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:10:12 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:08:12.972 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:08:12.972 +03:00 [INF] Validation headers generated. ETag: Strong, "156193E4E66D11F53D9DD2CFFE83A298". Last-Modified: Sat, 18 Jun 2022 14:08:12 GMT
+2022-06-18 17:08:12.972 +03:00 [INF] Generating Vary header.
+2022-06-18 17:08:12.972 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:08:12.973 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 48 - 201 - application/json;+charset=utf-8 13.5324ms
+2022-06-18 17:08:13.257 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 48
+2022-06-18 17:08:13.257 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:08:13.257 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:08:13.257 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:08:13.257 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:08:13.257 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:08:13.257 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:08:13.258 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:08:13.258 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:08:13.285 +03:00 [INF] New product added with id 62addc4d2f11068efb4eb329
+2022-06-18 17:08:13.286 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:08:13.287 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 28.9715ms
+2022-06-18 17:08:13.287 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:08:13.287 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:08:13.287 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:10:13 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:08:13.287 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:08:13.288 +03:00 [INF] Validation headers generated. ETag: Strong, "CD4543CA231A57620FD50D9265C3CACD". Last-Modified: Sat, 18 Jun 2022 14:08:13 GMT
+2022-06-18 17:08:13.288 +03:00 [INF] Generating Vary header.
+2022-06-18 17:08:13.288 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:08:13.298 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 48 - 201 - application/json;+charset=utf-8 41.5435ms
+2022-06-18 17:08:14.964 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 48
+2022-06-18 17:08:14.964 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:08:14.965 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:08:14.965 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:08:14.965 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:08:14.965 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:08:14.965 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:08:14.965 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:08:14.965 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:08:14.971 +03:00 [INF] New product added with id 62addc4e2f11068efb4eb32a
+2022-06-18 17:08:14.972 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:08:14.972 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 7.2095ms
+2022-06-18 17:08:14.973 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:08:14.973 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:08:14.973 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:10:14 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:08:14.973 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:08:14.974 +03:00 [INF] Validation headers generated. ETag: Strong, "78ECFA1655B4322A44B6DC69397FC57E". Last-Modified: Sat, 18 Jun 2022 14:08:14 GMT
+2022-06-18 17:08:14.974 +03:00 [INF] Generating Vary header.
+2022-06-18 17:08:14.974 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:08:14.974 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 48 - 201 - application/json;+charset=utf-8 9.8179ms
+2022-06-18 17:08:45.914 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Order application/json 98
+2022-06-18 17:08:45.914 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:08:45.914 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:08:45.915 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:08:45.915 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:08:45.915 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:08:45.915 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:08:45.915 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation)'
+2022-06-18 17:08:45.919 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderApplication.Models.DTO.OrderForCreation) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 17:08:53.273 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 17:08:53.293 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 17:08:56.277 +03:00 [INF] Received HTTP response headers after 2981.3848ms - 200
+2022-06-18 17:08:56.284 +03:00 [INF] End processing HTTP request after 3012.6947ms - 200
+2022-06-18 17:08:56.311 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/627f85b7145de8d19a61ed6e"
+2022-06-18 17:08:56.312 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/627f85b7145de8d19a61ed6e"
+2022-06-18 17:08:56.400 +03:00 [INF] Received HTTP response headers after 88.0698ms - 200
+2022-06-18 17:08:56.400 +03:00 [INF] End processing HTTP request after 88.6793ms - 200
+2022-06-18 17:08:56.431 +03:00 [INF] New order added with id 62addc782f11068efb4eb32b
+2022-06-18 17:08:56.431 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Order'.
+2022-06-18 17:08:56.439 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation) in 10519.5773ms
+2022-06-18 17:08:56.439 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation)'
+2022-06-18 17:08:56.439 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:08:56.439 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:10:56 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:08:56.439 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:08:56.439 +03:00 [INF] Validation headers generated. ETag: Strong, "487688FB6F187773DD1D8B7A33555BD8". Last-Modified: Sat, 18 Jun 2022 14:08:56 GMT
+2022-06-18 17:08:56.439 +03:00 [INF] Generating Vary header.
+2022-06-18 17:08:56.439 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:08:56.440 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Order application/json 98 - 201 - application/json;+charset=utf-8 10526.2592ms
+2022-06-18 17:09:10.543 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/62addc4e2f11068efb4eb32a - -
+2022-06-18 17:09:10.543 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:09:10.543 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:09:10.543 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:09:10.543 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:09:10.543 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:09:10.543 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:09:10.543 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:09:10.544 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:09:45.899 +03:00 [INF] Product with id 62addc4e2f11068efb4eb32a deleted.
+2022-06-18 17:09:45.899 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-06-18 17:09:45.899 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation) in 35355.4007ms
+2022-06-18 17:09:45.899 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:09:45.899 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:09:45.900 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:11:45 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:09:45.900 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:09:45.900 +03:00 [INF] Validation headers generated. ETag: Strong, "5D7C64B5709A1EB10FD950ECA9840007". Last-Modified: Sat, 18 Jun 2022 14:09:45 GMT
+2022-06-18 17:09:45.900 +03:00 [INF] Generating Vary header.
+2022-06-18 17:09:45.900 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:09:45.902 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Product/62addc4e2f11068efb4eb32a - - - 200 0 - 35358.8626ms
+2022-06-18 17:09:56.226 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/62addc782f11068efb4eb32b - -
+2022-06-18 17:09:56.226 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:09:56.226 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:09:56.226 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 17:09:56.226 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:09:56.226 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:09:56.226 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:09:56.226 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:09:56.227 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetById (OrderPresentation)'
+2022-06-18 17:09:56.229 +03:00 [INF] Route matched with {action = "GetById", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 17:09:56.309 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetById (OrderPresentation) in 79.4732ms
+2022-06-18 17:09:56.309 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetById (OrderPresentation)'
+2022-06-18 17:09:56.428 +03:00 [INF] NOT FOUND EXCEPTION: No order with id: 62addc782f11068efb4eb32b
+2022-06-18 17:09:56.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/62addc782f11068efb4eb32b - - - 404 - application/json 202.4499ms
+2022-06-18 17:10:09.170 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 48
+2022-06-18 17:10:09.170 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:10:09.170 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:10:09.170 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:10:09.170 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:10:09.170 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:10:09.170 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:10:09.170 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:10:09.171 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:10:09.179 +03:00 [INF] New product added with id 62addcc12f11068efb4eb32c
+2022-06-18 17:10:09.180 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:10:09.181 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 9.7988ms
+2022-06-18 17:10:09.181 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:10:09.181 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:10:09.181 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:12:09 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:10:09.181 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:10:09.181 +03:00 [INF] Validation headers generated. ETag: Strong, "CD5BF376A4503DF690725F3F727B2A96". Last-Modified: Sat, 18 Jun 2022 14:10:09 GMT
+2022-06-18 17:10:09.181 +03:00 [INF] Generating Vary header.
+2022-06-18 17:10:09.181 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:10:09.182 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 48 - 201 - application/json;+charset=utf-8 11.4446ms
+2022-06-18 17:10:09.544 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 48
+2022-06-18 17:10:09.544 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:10:09.544 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:10:09.544 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:10:09.544 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:10:09.544 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:10:09.544 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:10:09.544 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:10:09.545 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:10:09.579 +03:00 [INF] New product added with id 62addcc12f11068efb4eb32d
+2022-06-18 17:10:09.580 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:10:09.580 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 35.3574ms
+2022-06-18 17:10:09.580 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:10:09.580 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:10:09.580 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:12:09 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:10:09.581 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:10:09.581 +03:00 [INF] Validation headers generated. ETag: Strong, "0130198DFBAC3A5CF9AE71330493EBC0". Last-Modified: Sat, 18 Jun 2022 14:10:09 GMT
+2022-06-18 17:10:09.581 +03:00 [INF] Generating Vary header.
+2022-06-18 17:10:09.581 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:10:09.582 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 48 - 201 - application/json;+charset=utf-8 37.9070ms
+2022-06-18 17:10:16.317 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 48
+2022-06-18 17:10:16.317 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:10:16.317 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:10:16.317 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:10:16.318 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:10:16.318 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:10:16.318 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:10:16.318 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:10:16.319 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(OrderApplication.Models.DTO.ProductForCreation) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:10:16.324 +03:00 [INF] New product added with id 62addcc82f11068efb4eb32e
+2022-06-18 17:10:16.325 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Product'.
+2022-06-18 17:10:16.325 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation) in 6.7579ms
+2022-06-18 17:10:16.325 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.CreateProduct (OrderPresentation)'
+2022-06-18 17:10:16.326 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:10:16.326 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:12:16 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:10:16.326 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:10:16.326 +03:00 [INF] Validation headers generated. ETag: Strong, "8CC4F3173B96D4F35EB635B1DEAC99EF". Last-Modified: Sat, 18 Jun 2022 14:10:16 GMT
+2022-06-18 17:10:16.326 +03:00 [INF] Generating Vary header.
+2022-06-18 17:10:16.326 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:10:16.326 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 48 - 201 - application/json;+charset=utf-8 11.0547ms
+2022-06-18 17:10:22.185 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Order application/json 125
+2022-06-18 17:10:22.185 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:10:22.185 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:10:22.185 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:10:22.185 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:10:22.185 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:10:22.186 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:10:22.186 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation)'
+2022-06-18 17:10:22.186 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderApplication.Models.DTO.OrderForCreation) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 17:10:22.208 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 17:10:22.209 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/validate/627f85b7145de8d19a61ed6e"
+2022-06-18 17:10:22.242 +03:00 [INF] Received HTTP response headers after 33.0341ms - 200
+2022-06-18 17:10:22.242 +03:00 [INF] End processing HTTP request after 33.5307ms - 200
+2022-06-18 17:10:22.242 +03:00 [INF] Start processing HTTP request GET "http://localhost:8000/Customer/627f85b7145de8d19a61ed6e"
+2022-06-18 17:10:22.242 +03:00 [INF] Sending HTTP request GET "http://localhost:8000/Customer/627f85b7145de8d19a61ed6e"
+2022-06-18 17:10:22.262 +03:00 [INF] Received HTTP response headers after 19.3568ms - 200
+2022-06-18 17:10:22.262 +03:00 [INF] End processing HTTP request after 19.9703ms - 200
+2022-06-18 17:10:22.278 +03:00 [INF] New order added with id 62addcce2f11068efb4eb32f
+2022-06-18 17:10:22.278 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderDomain.Entities.Order'.
+2022-06-18 17:10:22.279 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation) in 92.8503ms
+2022-06-18 17:10:22.279 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.CreateOrder (OrderPresentation)'
+2022-06-18 17:10:22.279 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:10:22.279 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:12:22 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:10:22.279 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:10:22.279 +03:00 [INF] Validation headers generated. ETag: Strong, "08839B56281856CF4527A56C0BD24FD8". Last-Modified: Sat, 18 Jun 2022 14:10:22 GMT
+2022-06-18 17:10:22.279 +03:00 [INF] Generating Vary header.
+2022-06-18 17:10:22.279 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:10:22.280 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Order application/json 125 - 201 - application/json;+charset=utf-8 94.4809ms
+2022-06-18 17:10:30.227 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/62addcce2f11068efb4eb32f - -
+2022-06-18 17:10:30.227 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:10:30.227 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:10:30.227 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 17:10:30.227 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:10:30.227 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:10:30.227 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:10:30.227 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:10:30.228 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetById (OrderPresentation)'
+2022-06-18 17:10:30.228 +03:00 [INF] Route matched with {action = "GetById", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 17:10:30.235 +03:00 [INF] Getting order data with 62addcce2f11068efb4eb32f from database
+2022-06-18 17:10:30.236 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderDomain.Entities.Order'.
+2022-06-18 17:10:30.236 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetById (OrderPresentation) in 7.8575ms
+2022-06-18 17:10:30.236 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetById (OrderPresentation)'
+2022-06-18 17:10:30.236 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:10:30.236 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:12:30 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:10:30.236 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:10:30.237 +03:00 [INF] Validation headers generated. ETag: Strong, "D04CFF7947F416AB57E0CC4EDB23F4B5". Last-Modified: Sat, 18 Jun 2022 14:10:30 GMT
+2022-06-18 17:10:30.237 +03:00 [INF] Generating Vary header.
+2022-06-18 17:10:30.237 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:10:30.237 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 17:10:30.237 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/62addcce2f11068efb4eb32f - - - 200 - application/json;+charset=utf-8 10.3700ms
+2022-06-18 17:10:41.690 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/62addcc12f11068efb4eb32d - -
+2022-06-18 17:10:41.692 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:10:41.693 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:10:41.693 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:10:41.693 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:10:41.693 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:10:41.693 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:10:41.694 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:10:41.694 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:13:36.312 +03:00 [INF] Now listening on: https://localhost:5001
+2022-06-18 17:13:36.323 +03:00 [INF] Now listening on: http://localhost:5000
+2022-06-18 17:13:36.324 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-18 17:13:36.324 +03:00 [INF] Hosting environment: Development
+2022-06-18 17:13:36.324 +03:00 [INF] Content root path: C:\Users\kutlu\Desktop\WORK\TESODEV\src\OrderPresentation
+2022-06-18 17:13:37.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-06-18 17:13:37.301 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 165.9062ms
+2022-06-18 17:13:38.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-06-18 17:13:38.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.9114ms
+2022-06-18 17:13:45.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order - -
+2022-06-18 17:13:45.161 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:13:45.168 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:13:45.176 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 17:13:45.176 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:13:45.179 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:13:45.179 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:13:45.179 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:13:45.239 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-06-18 17:13:45.298 +03:00 [INF] Route matched with {action = "GetAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 17:13:46.476 +03:00 [INF] Getting all orders data's from database
+2022-06-18 17:13:46.493 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderDomain.Entities.Order, OrderDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-18 17:13:46.524 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation) in 1218.3035ms
+2022-06-18 17:13:46.527 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetAll (OrderPresentation)'
+2022-06-18 17:13:46.533 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:13:46.535 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:15:46 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:13:46.538 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:13:46.551 +03:00 [INF] Validation headers generated. ETag: Strong, "36EF9C30DA0D17B6D8784B48D9454397". Last-Modified: Sat, 18 Jun 2022 14:13:46 GMT
+2022-06-18 17:13:46.551 +03:00 [INF] Generating Vary header.
+2022-06-18 17:13:46.551 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:13:46.561 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 17:13:46.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order - - - 200 - application/json;+charset=utf-8 1435.6055ms
+2022-06-18 17:13:54.825 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/62addcc12f11068efb4eb32d - -
+2022-06-18 17:13:54.825 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:13:54.825 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:13:54.825 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:13:54.825 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:13:54.825 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:13:54.825 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:13:54.827 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:13:54.834 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:13:54.896 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation) in 61.8826ms
+2022-06-18 17:13:54.896 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:13:54.897 +03:00 [INF] NOT FOUND EXCEPTION: No product with id: 62addcc12f11068efb4eb32d
+2022-06-18 17:13:54.900 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Product/62addcc12f11068efb4eb32d - - - 404 - application/json 75.0515ms
+2022-06-18 17:14:03.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Product - -
+2022-06-18 17:14:03.986 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:14:03.987 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:14:03.987 +03:00 [INF] Not valid - no If-None-Match or If-Modified-Since headers.
+2022-06-18 17:14:03.987 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:14:03.987 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:14:03.987 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:14:03.987 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:14:03.987 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.GetAll (OrderPresentation)'
+2022-06-18 17:14:03.991 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(OrderDomain.RequestFeatures.RequestParameters) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:14:04.006 +03:00 [INF] Getting all products data's from database
+2022-06-18 17:14:04.007 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderDomain.Entities.Product, OrderDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-18 17:14:04.009 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.GetAll (OrderPresentation) in 17.6711ms
+2022-06-18 17:14:04.009 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.GetAll (OrderPresentation)'
+2022-06-18 17:14:04.009 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:14:04.009 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:16:04 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:14:04.010 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:14:04.010 +03:00 [INF] Validation headers generated. ETag: Strong, "117D3CE8B03731425FFFEB81CC4D1C76". Last-Modified: Sat, 18 Jun 2022 14:14:04 GMT
+2022-06-18 17:14:04.010 +03:00 [INF] Generating Vary header.
+2022-06-18 17:14:04.010 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:14:04.010 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 17:14:04.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Product - - - 200 - application/json;+charset=utf-8 24.4275ms
+2022-06-18 17:14:30.858 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Order application/json 189
+2022-06-18 17:14:30.858 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:14:30.858 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:14:30.858 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:14:30.858 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:14:30.858 +03:00 [INF] Not valid - no If Match or If Unmodified-Since headers.
+2022-06-18 17:14:30.858 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:14:30.858 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.UpdateOrder (OrderPresentation)'
+2022-06-18 17:14:30.864 +03:00 [INF] Route matched with {action = "UpdateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOrder(OrderApplication.Models.DTO.OrderForUpdate) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 17:14:31.156 +03:00 [INF] Order with id 62addcce2f11068efb4eb32f updated.
+2022-06-18 17:14:31.156 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderDomain.Entities.Order'.
+2022-06-18 17:14:31.156 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.UpdateOrder (OrderPresentation) in 291.9306ms
+2022-06-18 17:14:31.156 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.UpdateOrder (OrderPresentation)'
+2022-06-18 17:14:31.156 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:14:31.156 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:16:31 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:14:31.156 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:14:31.156 +03:00 [INF] Validation headers generated. ETag: Strong, "5CC379245D196490E810B8657B1D09CE". Last-Modified: Sat, 18 Jun 2022 14:14:31 GMT
+2022-06-18 17:14:31.156 +03:00 [INF] Generating Vary header.
+2022-06-18 17:14:31.156 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:14:31.157 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Order application/json 189 - 200 - application/json;+charset=utf-8 298.6261ms
+2022-06-18 17:14:39.513 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Product/62addc4c2f11068efb4eb328 - -
+2022-06-18 17:14:39.513 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:14:39.513 +03:00 [INF] Not valid - method isn't GET or HEAD.
+2022-06-18 17:14:39.513 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:14:39.513 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:14:39.513 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:14:39.513 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:14:39.513 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:14:39.513 +03:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(System.String) on controller OrderPresentation.Controllers.ProductController (OrderPresentation).
+2022-06-18 17:14:39.580 +03:00 [INF] Product with id 62addc4c2f11068efb4eb328 deleted.
+2022-06-18 17:14:39.589 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2022-06-18 17:14:39.589 +03:00 [INF] Executed action OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation) in 75.6552ms
+2022-06-18 17:14:39.589 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.ProductController.DeleteProduct (OrderPresentation)'
+2022-06-18 17:14:39.589 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:14:39.589 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:16:39 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:14:39.589 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:14:39.589 +03:00 [INF] Validation headers generated. ETag: Strong, "F79D6436201429A5CD4A3F3A6DE6A065". Last-Modified: Sat, 18 Jun 2022 14:14:39 GMT
+2022-06-18 17:14:39.589 +03:00 [INF] Generating Vary header.
+2022-06-18 17:14:39.589 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:14:39.590 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Product/62addc4c2f11068efb4eb328 - - - 200 0 - 76.9098ms
+2022-06-18 17:14:55.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Order/62addcce2f11068efb4eb32f - -
+2022-06-18 17:14:55.224 +03:00 [INF] No cached response available for this request.
+2022-06-18 17:14:55.224 +03:00 [INF] Checking for conditional GET/HEAD.
+2022-06-18 17:14:55.225 +03:00 [INF] No saved response found in store.
+2022-06-18 17:14:55.225 +03:00 [INF] Don't generate 304 - Not Modified.  Continue.
+2022-06-18 17:14:55.225 +03:00 [INF] Checking for conditional PUT/PATCH.
+2022-06-18 17:14:55.225 +03:00 [INF] Not valid - method isn't PUT or PATCH.
+2022-06-18 17:14:55.225 +03:00 [INF] Don't generate 412 - Precondition Failed.  Continue.
+2022-06-18 17:14:55.225 +03:00 [INF] Executing endpoint 'OrderPresentation.Controllers.OrderController.GetById (OrderPresentation)'
+2022-06-18 17:14:55.230 +03:00 [INF] Route matched with {action = "GetById", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.String) on controller OrderPresentation.Controllers.OrderController (OrderPresentation).
+2022-06-18 17:14:55.237 +03:00 [INF] Getting order data with 62addcce2f11068efb4eb32f from database
+2022-06-18 17:14:55.237 +03:00 [INF] Executing OkObjectResult, writing value of type 'OrderDomain.Entities.Order'.
+2022-06-18 17:14:55.237 +03:00 [INF] Executed action OrderPresentation.Controllers.OrderController.GetById (OrderPresentation) in 7.028ms
+2022-06-18 17:14:55.237 +03:00 [INF] Executed endpoint 'OrderPresentation.Controllers.OrderController.GetById (OrderPresentation)'
+2022-06-18 17:14:55.237 +03:00 [INF] Generating expiration headers.
+2022-06-18 17:14:55.237 +03:00 [INF] Expiration headers generated. Expires: Sat, 18 Jun 2022 14:16:55 GMT. Cache-Control: private,max-age=120,must-revalidate.
+2022-06-18 17:14:55.237 +03:00 [INF] Generating Validation headers.
+2022-06-18 17:14:55.237 +03:00 [INF] Validation headers generated. ETag: Strong, "DA4ADBB6692D29B3C69B151BBC65CF22". Last-Modified: Sat, 18 Jun 2022 14:14:55 GMT
+2022-06-18 17:14:55.237 +03:00 [INF] Generating Vary header.
+2022-06-18 17:14:55.237 +03:00 [INF] Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2022-06-18 17:14:55.238 +03:00 [INF] The response could not be cached for this request.
+2022-06-18 17:14:55.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Order/62addcce2f11068efb4eb32f - - - 200 - application/json;+charset=utf-8 13.7745ms
+2022-06-18 17:38:21.474 +03:00 [INF] Application is shutting down...

@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrderPresentation</name>
+    </assembly>
+    <members>
+        <member name="M:OrderPresentation.Controllers.OrderController.GetAll(OrderDomain.RequestFeatures.RequestParameters)">
+            <summary>
+            List all order
+            </summary>
+            <response code="200">Successful Response</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.OrderController.GetById(System.String)">
+             <summary>
+             Fetch a order with giving id
+             </summary>
+            <param name="id">Id of specific order</param>
+             <response code="200">Successful Response</response>
+             <response code="404">Invalid Order Id</response>
+             <response code="500">Server Error</response>
+             <response code="400">Invalid Format Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.OrderController.GetOrdersOfCustomers(System.String,OrderDomain.RequestFeatures.RequestParameters)">
+             <summary>
+             Fetch a orders of the given customer
+             </summary>
+            <param name="customerId">Id of specific customer</param>
+            <param name="requestParameters">Paging params if needed</param>
+             <response code="200">Successful Response</response>
+             <response code="500">Server Error</response>
+             <response code="404">Invalid Customer Id or No Order With The Customer</response>
+             <response code="400">Invalid Id Format Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.OrderController.CreateOrder(OrderApplication.Models.DTO.OrderForCreation)">
+            <summary>
+            Creating new order by using body.
+            </summary>
+            <param name="newOrder">All areas are required</param>
+            <response code="201">Successful Response</response>
+            <response code="400">Validation Failed or Invalid Request Body</response>
+            <response code="500">Server Error</response>
+            <response code="404">Invalid Customer or Product Id</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.OrderController.UpdateOrder(OrderApplication.Models.DTO.OrderForUpdate)">
+            <summary>
+            Updating an order by using body.
+            </summary>
+            <param name="newOrder">All areas are required. Enter correct pattern and valid id.</param>
+            <response code="200">Successful Response</response>
+            <response code="400">Validation Failed or Invalid Request Body</response>
+            <response code="500">Server Error</response>
+            <response code="404">Invalid Order or Product Id</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.OrderController.UpdateStatus(System.String,System.String)">
+            <summary>
+            Updating the status of an order by using body.
+            </summary>
+            <param name="id">Order Id</param>
+            <param name="newStatus">New status of the order</param>
+            <response code="200">Successful Response</response>
+            <response code="400">Validation Failed or Invalid Request Body</response>
+            <response code="500">Server Error</response>
+            <response code="404">Invalid OrderId</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.OrderController.DeleteOrder(System.String)">
+            <summary>
+            Deleting a order by using id of the order.
+            </summary>
+            <param name="id">Enter a valid id of a order</param>
+            <response code="200">Successful Response</response>
+            <response code="400">Invalid Id Format Error</response>
+            <response code="404">Invalid Order Id </response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.OrderController.DeleteOrderOfCustomer(System.String)">
+            <summary>
+            Deleting all orders of a customer with given id.
+            </summary>
+            <param name="customerId">Enter a valid id of a customer</param>
+            <response code="200">Successful Response</response>
+            <response code="500">Server Error</response>
+            <response code="404">Invalid Customer Id or No Order With The Customer</response>
+            <response code="400">Invalid Id Format Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.ProductController.GetAll(OrderDomain.RequestFeatures.RequestParameters)">
+            <summary>
+            List all products
+            </summary>
+            <param name="requestParameters">Paging params if needed</param>
+            <response code="200">Successful Response</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.ProductController.GetById(System.String)">
+             <summary>
+             Fetch a product with giving id
+             </summary>
+            <param name="id">Id of specific product</param>
+             <response code="200">Successful Response</response>
+             <response code="404">Invalid Product Id</response>
+             <response code="500">Server Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.ProductController.CreateProduct(OrderApplication.Models.DTO.ProductForCreation)">
+            <summary>
+            Creating new product by using body.
+            </summary>
+            <param name="productForCreation">All areas are required</param>
+            <response code="201">Successful Response</response>
+            <response code="400">Validation Failed or Invalid Request Body</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.ProductController.UpdateProduct(OrderApplication.Models.DTO.ProductForUpdate)">
+            <summary>
+            Updating a product by using body.
+            </summary>
+            <param name="productForUpdate">All areas are required. Enter correct pattern and valid id.</param>
+            <response code="200">Successful Response</response>
+            <response code="400">Validation Failed or Invalid Request Body</response>
+            <response code="404">Invalid Product Id</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:OrderPresentation.Controllers.ProductController.DeleteProduct(System.String)">
+            <summary>
+            Deleting a product by using id of the product.
+            </summary>
+            <param name="id">Enter a valid id of a product</param>
+            <response code="200">Successful Response</response>
+            <response code="404">Invalid Product Id</response>
+            <response code="500">Server Error</response>
+            <response code="400">Invalid Id Format Error</response>
+        </member>
+    </members>
+</doc>

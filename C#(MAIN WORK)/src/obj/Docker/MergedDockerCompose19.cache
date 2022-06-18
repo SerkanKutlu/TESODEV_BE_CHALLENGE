@@ -1,0 +1,53 @@
+services:
+  customerpresentation:
+    build:
+      context: C:\Users\kutlu\Desktop\WORK\TESODEV\src
+      dockerfile: CustomerPresentation\Dockerfile
+    container_name: customerservice
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      HttpRequestSettings:BaseUrl: http://gateway
+      HttpRequestSettings:Port: '80'
+      MongoSettings:ConnectionString: mongodb://root:155202Asd...@mongodb:27017
+    image: customerpresentation
+    ports:
+    - published: 8001
+      target: 80
+  gateway:
+    build:
+      context: C:\Users\kutlu\Desktop\WORK\TESODEV\src
+      dockerfile: Gateway/Dockerfile
+    container_name: gateway
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: gateway
+    ports:
+    - published: 8000
+      target: 80
+  mongodb:
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: 155202Asd...
+      MONGO_INITDB_ROOT_USERNAME: root
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+  orderpresentation:
+    build:
+      context: C:\Users\kutlu\Desktop\WORK\TESODEV\src
+      dockerfile: OrderPresentation/Dockerfile
+    container_name: orderservice
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      HttpRequestSettings:BaseUrl: http://gateway
+      HttpRequestSettings:Port: '80'
+      MongoSettings:ConnectionString: mongodb://root:155202Asd...@mongodb:27017
+    image: orderpresentation
+    ports:
+    - published: 8002
+      target: 80
+version: '3.4'

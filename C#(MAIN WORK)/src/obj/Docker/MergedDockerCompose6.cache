@@ -1,0 +1,70 @@
+services:
+  customerpresentation:
+    build:
+      context: C:\Users\kutlu\Desktop\WORK\TESODEV\src
+      dockerfile: CustomerPresentation/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: CustomerPresentation
+      target: base
+    container_name: CustomerPresentation
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: customerpresentation:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/CustomerPresentation.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - C:\Users\kutlu\Desktop\WORK\TESODEV\src\CustomerPresentation:/app:rw
+    - C:\Users\kutlu\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\kutlu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\kutlu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\kutlu\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\kutlu\Desktop\WORK\TESODEV\src:/src:rw
+  gateway:
+    build:
+      context: C:\Users\kutlu\Desktop\WORK\TESODEV\src
+      dockerfile: Gateway/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Gateway
+      target: base
+    container_name: Gateway
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: gateway:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/Gateway.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - C:\Users\kutlu\Desktop\WORK\TESODEV\src\Gateway:/app:rw
+    - C:\Users\kutlu\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\kutlu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\kutlu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\kutlu\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\kutlu\Desktop\WORK\TESODEV\src:/src:rw
+version: '3.4'
